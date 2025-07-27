@@ -1,11 +1,11 @@
 import './App.css'
-import {use, useState} from 'react'
+import { useState } from 'react'
 import confetti from 'canvas-confetti'
-import {Square} from './componentes/Square'
+import { Square } from './componentes/Square'
 import { TURNS } from './constants'
 import { checkWinner, checkEndGame } from './logic/board'
 import { WinnerModal } from './componentes/WinnerModal'
-import {saveGameToStorage, resetGameStorage} from './logic/storage/index'
+import { saveGameToStorage, resetGameStorage } from './logic/storage/index'
 
 function App() {
   const [board, setBoard] = useState( ()=>{
