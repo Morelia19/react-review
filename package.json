@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Morelia19/react-review/issues"
   },
-  "homepage": "https://github.com/Morelia19/react-review#readme"
+  "homepage": "https://github.com/Morelia19/react-review#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
